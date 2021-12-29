@@ -10,7 +10,7 @@ use Arku\Newrelic\Transformers\TransactionDetailTransformer;
 use Spiral\Goridge;
 use Spiral\RoadRunner;
 
-require __DIR__ . "/vendor/autoload.php";
+require __DIR__ . "/../vendor/autoload.php";
 
 $worker = RoadRunner\Worker::create();
 $psr7 = new RoadRunner\Http\PSR7Worker(
@@ -22,7 +22,7 @@ $psr7 = new RoadRunner\Http\PSR7Worker(
 
 while ($req = $psr7->waitRequest()) {
     try {
-        $resp = new \Nyholm\Psr7\Response();
+        $resp = new \Nyholm\Psr7\Response(200, [], 'Hello, world!');
 
         $transactionDetail = new TransactionDetail();
         $transactionDetail->setName('test');

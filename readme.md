@@ -11,6 +11,6 @@
 
 
 
-![Summary](https://raw.githubusercontent.com/arku31/newrelic-roadrunner-sample/master/images/summary.png)![Summary](https://raw.githubusercontent.com/arku31/newrelic-roadrunner-sample/master/images/summary.png)
+![Summary](https://raw.githubusercontent.com/arku31/newrelic-roadrunner-sample/master/images/summary.png)
 
-![Transactions](https://raw.githubusercontent.com/arku31/newrelic-roadrunner-sample/master/images/transactions.png)![Transactions](https://raw.githubusercontent.com/arku31/newrelic-roadrunner-sample/master/images/transactions.png)
+![Transactions](https://raw.githubusercontent.com/arku31/newrelic-roadrunner-sample/master/images/transactions.png)

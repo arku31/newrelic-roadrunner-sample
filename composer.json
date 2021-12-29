@@ -1,0 +1,15 @@
+{
+    "name": "RR Newrelic sample",
+    "description": "Sample",
+    "type": "project",
+    "require": {
+        "spiral/roadrunner": "^2.6",
+        "nyholm/psr7": "^1.4",
+        "arku31/roadrunner-newrelic": "^0.1.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}

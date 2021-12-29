@@ -1,0 +1,12 @@
+rpc:
+  listen: tcp://0.0.0.0:6001
+
+server:
+  command: "php public/worker.php"
+
+http:
+  address: "0.0.0.0:8081"
+  middleware: [ "new_relic" ]
+  new_relic:
+    app_name: "Default application"
+    license_key: "1234567890123456789012345678901234567890"
